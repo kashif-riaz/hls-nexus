@@ -1,0 +1,393 @@
+/* Utility Classes */
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.text-black {
+  color: black;
+}
+
+body {
+  color: white;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/* Typography Color  */
+
+:root {
+  --white: #fff;
+  --blue: #568ec7;
+  --light-black: #3a3a3c;
+}
+
+/* Typography Font  */
+
+.fs-12 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.fs-14 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.28px;
+}
+
+.fs-16 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.fs-20 {
+  font-size: 2rem;
+}
+
+.fs-24 {
+  font-size: 2.4rem;
+  line-height: 28px;
+}
+
+.fs-22 {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+}
+
+.fs-28 {
+  font-size: 2.8rem;
+}
+
+.fs-36 {
+  font-size: 3.6rem;
+}
+
+.fs-38 {
+  font-size: 3.8rem;
+  line-height: 46px;
+}
+.fs-42 {
+  font-size: 4.2rem;
+  line-height: 4rem;
+  letter-spacing: 6.3px;
+}
+
+.fs-62 {
+  font-size: 6.2rem;
+  letter-spacing: 1.24px;
+  line-height: 6.6rem;
+  max-width: 535px;
+}
+
+/* Typography Padding & Margin*/
+
+.mar-top-20 {
+  margin-block: 2rem 3.4rem;
+}
+
+/* header Start */
+
+.bg-light-grey {
+  background-color: var(--light-black);
+}
+
+.header-parent {
+  padding-top: 3rem;
+}
+
+.nav-bar-gap {
+  gap: 6rem;
+}
+
+.menu-gap {
+  gap: 2rem;
+}
+
+.btn-close {
+  width: 2em;
+  height: 2em;
+  background-size: 1.8rem;
+}
+
+/* Hero Section Start  */
+
+.hero-top-padd-10 {
+  padding-block: 1rem 0rem;
+}
+
+.max-width-420 {
+  max-width: 420px;
+}
+
+.hero-cards {
+  gap: 1.2rem;
+}
+
+.hero-card {
+  background-color: var(--white);
+  border-radius: 0.6rem;
+  width: 100%;
+}
+
+.radius-blue {
+  width: 11px;
+  height: inherit;
+  background-color: var(--blue);
+  border-radius: 6px 0px 0px 6px;
+}
+
+.mar-inline-3-6 {
+  margin-inline: 0.3rem 0.6rem;
+  padding-block: 0.9rem;
+}
+
+.mar-top-12 {
+  margin-top: 1.2rem;
+}
+
+/* Location Section Start  */
+
+.mar-top-60 {
+  margin-top: 6rem;
+}
+
+.mar-top-70 {
+  margin-block: 7rem 3rem;
+}
+
+.location-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.mar-top-8 {
+  margin-top: 0.8rem;
+}
+
+/* About us section start  */
+
+.marg-blk-35-12 {
+  margin-block: 3rem 1.2rem;
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.about-us-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.height-457 {
+  height: 457px;
+}
+
+/* Inventory Section Start  */
+
+.inventory-gap {
+  gap: 5.8rem;
+}
+
+.mar-blk-80 {
+  margin-top: 8rem;
+}
+
+.inventory-card-parent {
+  min-width: 280px;
+  min-height: 492px;
+  border-radius: 25px;
+  background: #fff;
+  padding: 3rem 4.8rem 1.4rem 4.8rem;
+  box-shadow: -1px -1px 10px 0px rgba(0, 0, 0, 0.5),
+    1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+  background-image: url(../images/inventory-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.inventory-name-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Why Choose Us Section  */
+
+.choose-head-gap {
+  gap: 1.6rem;
+  padding-left: 1rem;
+}
+.mar-top-60-choose{
+  margin-top: 6rem;
+}
+.pad-top-18 {
+  padding-top: 1.8rem;
+}
+
+/* Footer  */
+
+.footer {
+  margin-top: 12rem;
+  padding-block: 3rem;
+}
+
+.rounded-up-footer {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--blue);
+  padding: 1.5rem;
+}
+
+.footer-content-gap {
+  gap: 2rem;
+}
+
+.footer-center-gap {
+  gap: 2rem;
+}
+
+.padd-blk-50 {
+  padding-block: 5rem;
+}
+
+.pad-inline-200 {
+  padding-inline: 20rem;
+}
+.mar-blk-10{
+  margin-block: 1rem;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-inline: 2rem;
+  }
+
+  /* Header Strat  */
+
+  .btn:focus,
+  .btn-close:focus {
+    box-shadow: none;
+  }
+
+  /* Hero Section Start  */
+
+  .hero-top-padd-10 {
+    padding-block: 2rem 1.5rem;
+  }
+
+  .fs-mobile-36 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+  }
+
+  .fs-mobile-18-hero-para {
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+  }
+
+  .mar-top-20 {
+    margin-block: 1.2rem 1.6rem;
+  }
+
+  .mobile-hero-ship {
+    margin-top: 2rem;
+  }
+
+  .fs-12-card-para {
+    font-size: 1.2rem;
+  }
+
+  .fs-24-mobile {
+    font-size: 2.4rem;
+    line-height: 28px;
+  }
+
+  /* location Section  */
+
+  .mar-top-60 {
+    margin-top: 3rem;
+  }
+
+  .mar-top-70 {
+    margin-top: 3.5rem;
+  }
+
+  /* About us section start */
+
+  .pad-blk-25-13 {
+    padding-block: 2.5rem 1.3rem;
+  }
+  .about-us-mobile {
+    text-align: center;
+  }
+  .about-us-img {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+  .height-457 {
+    height: 100%;
+  }
+
+  /* Inventory Section Start  */
+
+  .mar-blk-80 {
+    margin-top: 4rem;
+  }
+
+  .inventory-card-parent {
+    max-width: 250px;
+    min-height: 370px;
+    padding: 3rem 3.5rem 1.4rem 3.5rem;
+    background-position: center;
+  }
+
+  /* Why Choose Us Section  */
+
+  .gap-mobile-choose-world {
+    gap: 1.2rem;
+  }
+  .fs-18-mobile{
+    font-size: 1.8rem ;
+    line-height: 2.2rem;
+  }
+  .fs-22-mobile{
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  /* Footer  Start */
+
+  .padd-blk-50 {
+    gap: 3.5rem;
+  }
+}
