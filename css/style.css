@@ -20,7 +20,6 @@ body {
   color: white;
 }
 
-
 .fw-300 {
   font-weight: 300;
 }
@@ -90,9 +89,9 @@ body {
   line-height: 46px;
 }
 .fs-42 {
-  font-size: 4.2rem;
-  line-height: 4rem;
-  letter-spacing: 6.3px;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  letter-spacing: 0rem;
 }
 
 .fs-62 {
@@ -206,6 +205,9 @@ body {
 .height-457 {
   height: 457px;
 }
+.mar-top-40 {
+  margin-top: 4rem;
+}
 
 /* Inventory Section Start  */
 
@@ -218,8 +220,8 @@ body {
 }
 
 .inventory-card-parent {
-  min-width: 280px;
-  min-height: 492px;
+  width: 376px;
+  height: 492px;
   border-radius: 25px;
   background: #fff;
   padding: 3rem 4.8rem 1.4rem 4.8rem;
@@ -233,6 +235,10 @@ body {
 
 .inventory-name-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fix-image-width {
+  width: 200px;
+  height: 300px;
 }
 
 /* Why Choose Us Section  */
@@ -366,10 +372,20 @@ body {
   }
 
   .inventory-card-parent {
-    max-width: 250px;
-    min-height: 370px;
+    width: 250px;
+    height: 370px;
     padding: 3rem 3.5rem 1.4rem 3.5rem;
     background-position: center;
+  }
+  .mar-top-40 {
+    margin-top: 2rem;
+  }
+  .inventory-gap {
+    gap: 2rem;
+  }
+  .fix-image-width {
+    width: 150px;
+    height: 150px;
   }
 
   /* Why Choose Us Section  */
