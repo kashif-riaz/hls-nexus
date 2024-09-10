@@ -20,6 +20,7 @@ body {
   color: white;
 }
 
+
 .fw-300 {
   font-weight: 300;
 }
@@ -134,7 +135,7 @@ body {
 /* Hero Section Start  */
 
 .hero-top-padd-10 {
-  padding-block: 1rem 0rem;
+  padding-block: 1rem 3rem;
 }
 
 .max-width-420 {
@@ -240,7 +241,7 @@ body {
   gap: 1.6rem;
   padding-left: 1rem;
 }
-.mar-top-60-choose{
+.mar-top-60-choose {
   margin-top: 6rem;
 }
 .pad-top-18 {
@@ -277,7 +278,7 @@ body {
 .pad-inline-200 {
   padding-inline: 20rem;
 }
-.mar-blk-10{
+.mar-blk-10 {
   margin-block: 1rem;
 }
 
@@ -376,11 +377,11 @@ body {
   .gap-mobile-choose-world {
     gap: 1.2rem;
   }
-  .fs-18-mobile{
-    font-size: 1.8rem ;
+  .fs-18-mobile {
+    font-size: 1.8rem;
     line-height: 2.2rem;
   }
-  .fs-22-mobile{
+  .fs-22-mobile {
     font-size: 2.2rem;
     line-height: 2.6rem;
   }
